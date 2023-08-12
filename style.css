@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 50px;
+    background-color: black;
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.highlight{
+    color: blueviolet;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.half-wid{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-wid img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+p{
+    padding-bottom: 30px;
+}
