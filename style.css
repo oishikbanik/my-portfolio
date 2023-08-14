@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 50px;
+    padding: 50px 50px 0px 50px ;
     background-color: black;
     font-family: 'League Spartan', sans-serif;
     color: white;
@@ -12,7 +12,7 @@ h2{
     font-size: 40px;
 }
 .highlight{
-    color: blueviolet;
+    color: skyblue;
 }
 section{
     height: 500px;
@@ -37,4 +37,21 @@ section{
 }
 p{
     padding-bottom: 30px;
+}
+.mid{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-box{
+    box-shadow: 10px 10px 40px #4477CE;
+    height: 50%;
+}
+#box{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #4477CE, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
